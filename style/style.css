@@ -66,13 +66,7 @@
     padding-right: 20px;
   }
   
-  header {
-    text-align: center;
-    padding: 20px;
-    padding-top: 0px;
-    color: hsl(206, 17%, 28%);
-  }
-  
+
   .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px;
@@ -84,21 +78,54 @@
     max-width: 800px;
     padding: 30px 40px;
   }
-  
-  .card-header::after {
-    content: " ";
-    display: block;
-    width: 100%;
-    background: #e7e9eb;
-    height: 2px;
-  }
+
+body{
+  font-size: 20px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/31/20/38/background-869586_1280.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #38a;
+}
 
 /* end of page layout */
+
+
+/* timmer */
+
+#timer {
+  margin: 0 auto;
+  color: black;
+  font-size: 2.5vw;
+  text-align: center;
+  margin-top: 2vw;
+}
 
 /* footer design */
 .footer {
     padding: 20px;
-    position: fixed;
     left: 0;
     bottom: 20px;
     width: 100%;
@@ -111,3 +138,4 @@
     color: white;
     text-align: center;
 }
+
